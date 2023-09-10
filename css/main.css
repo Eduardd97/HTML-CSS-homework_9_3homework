@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    padding: 15px 35px;
+}
+.header_icon_text {
+    display: flex;
+    align-items: center;
+}
+.header_icon_text img {
+    width: 40px;
+}
+.header_icon_text span {
+    padding-left: 10px;
+}
+.header_icon_text span:last-of-type {
+    padding-right: 10px;
+}
+.content {
+    display: flex;
+    padding: 25px;
+}
+.menu {
+    width: 20%;
+    padding: 0px 20px;
+}
+.menu_list_box {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
+.menu_list_box:hover {
+    background-color: #f4e4e4;
+}
+.menu_list_box span {
+    padding-left: 10px;
+}
+.mail_list{
+    width: 100%;
+}
+.mail_list_box {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    list-style-type: none;
+    margin: 0;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+    padding: 0;
+}
+.mail_list_box:hover {
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.5)
+}
+.mail_list_box li:first-of-type {
+    width: 18px;
+    padding-right: 15px;
+}
+.mail_list_box svg {
+    width: 100%;
+    height: auto;
+}
+.mail_list_box li:nth-of-type(2) {
+    width: 20%;
+}
+.mail_list_box li:nth-of-type(3) {
+    width: 60%;
+}
+.mail_list_box li:nth-of-type(4) {
+    width: 18px;
+    padding: 0px 15px;
+}
+.mail_list_box li:last-of-type {
+    width: 10%;
+}
+.mail_list_box li span {
+    color: #95969b;
+}
+.mail_list_box li img {
+    width: 100%;
+}
+.mail_list {
+    width: 100%;
+}
+.mail_list_mobile {
+    padding: 10px 0px;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+.mail_list_mobile:hover {
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.5)
+}
+.mail_list_box_star  {
+    display: flex;
+    width: 100%;
+}
+.mail_list_star {
+    width: 18px;
+    padding-right: 25px;
+}
+.mail_list_star svg {
+    width: 18px;
+    height: auto;
+}
+.mail_mobile {
+    position: relative;
+    width: 85%;
+}
+.mail_mobile span {
+    color: #95969b;
+}
+.mail_mobile img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 18px;
+}
+.mail_list_box_date {
+    width: 15%;
+}
+

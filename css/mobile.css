@@ -1,0 +1,13 @@
+@media (min-width:800px) {
+    .mail_list_mobile {
+        display: none;
+    }
+}
+@media (min-width:550px) and (max-width:800px) {
+    .mail_list_box {
+        display: none;
+    }
+    .mail_list_mobile {
+        display: flex;
+    }
+}
